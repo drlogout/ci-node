@@ -1,11 +1,15 @@
 FROM node:9.4.0-alpine
 
 RUN apk --no-cache add \
-    lftp \
     ca-certificates \
+    g++ \
+    gcc \
+    lftp \
+    make \
     openssh \
+    python2 \
     yarn \
-    python2
+    zlib-dev
 
 RUN npm install --global \
     gulp-cli \
