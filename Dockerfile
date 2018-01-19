@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:9.4.0-alpine
 
 RUN apk --no-cache add lftp ca-certificates openssh
 
