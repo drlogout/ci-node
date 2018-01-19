@@ -4,7 +4,8 @@ RUN apk --no-cache add \
     lftp \
     ca-certificates \
     openssh \
-    yarn
+    yarn \
+    python2
 
 RUN npm install --global \
     gulp-cli \
