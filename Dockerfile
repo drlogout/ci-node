@@ -9,8 +9,8 @@ RUN apk --no-cache add \
     openssh \
     python2 \
     yarn \
-    zlib-dev
-
-RUN npm install --global \
+    zlib-dev && \
+    npm install --global \
     gulp-cli \
-    grunt-cli
+    grunt-cli \
+    bower
