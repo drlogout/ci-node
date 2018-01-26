@@ -5,7 +5,9 @@ RUN apk --no-cache add \
     g++ \
     gcc \
     git \
+    libjpeg \
     libjpeg-turbo-utils \
+    libpng \
     lftp \
     make \
     openssh \
