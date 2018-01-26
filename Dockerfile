@@ -4,6 +4,7 @@ RUN apk --no-cache add \
     ca-certificates \
     g++ \
     gcc \
+    git \
     lftp \
     make \
     openssh \
