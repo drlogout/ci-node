@@ -6,8 +6,11 @@ RUN apk --no-cache add \
     gcc \
     git \
     libjpeg \
+    libjpeg-turbo \
+    libjpeg-turbo-dev \
     libjpeg-turbo-utils \
     libpng \
+    libpng-dev \
     lftp \
     make \
     openssh \
